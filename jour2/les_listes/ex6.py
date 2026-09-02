@@ -3,7 +3,6 @@ def chercheElement(element, liste):
     for i,v in enumerate(liste):
         if v==element:
             return i
-    else:
-        return False 
+    return False 
         
-print(chercheElement(30,L))
+print(chercheElement(300,L)) 
